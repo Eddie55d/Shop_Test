@@ -193,6 +193,14 @@ input {
     box-shadow: -1.3px 4.8px 47.5px rgba(221, 223, 224, 0.75);
 }
 
+.AddBtn:hover {
+    display: block;
+}
+
+.BagsArr:active .AddBtn {
+    display: block;
+}
+
 .BagItem {
     width: 236px;
     height: 329px;
@@ -202,6 +210,12 @@ input {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.BagImg {
+    height: 100%;
+    object-fit: contain;
+    overflow: hidden;
 }
 
 .BagName {
@@ -242,6 +256,7 @@ input {
     margin-top: 35px;
     background: linear-gradient(8.52deg, #8C84F9 5.54%, #A165F4 94.46%), #FCFCFC;
     box-shadow: -1.3px 4.8px 23.8px rgba(240, 239, 254, 0.75);
+    display: none;
 }
 
 .Our_Brand {
@@ -324,4 +339,30 @@ input {
     width: 1600px;
     height: 397px;
     background: blueviolet;
+}
+
+.WatchCard_1 {
+    position: absolute;
+    width: 1173px;
+    height: 935px;
+    margin-left: 0px;
+    margin-top: 0px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.WatchCard_2 {
+    position: absolute;
+    width: 1173px;
+    height: 935px;
+    margin-left: 0px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    align-content: center;
 }
